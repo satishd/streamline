@@ -13,8 +13,8 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>tag-registry</module>
+        <!--<module>tag-registry</module>-->
         <module>dashboard-registry</module>
-        <module>model-registry</module>
+        <!--<module>model-registry</module>-->
     </modules>
 </project>

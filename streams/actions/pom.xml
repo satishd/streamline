@@ -26,7 +26,7 @@
                      <artifactId>phoenix-core</artifactId>
                  </exclusion>
                  <exclusion>
-                     <groupId>com.hortonworks.streamline</groupId>
+                     <groupId>com.hortonworks.registries</groupId>
                      <artifactId>tag-registry</artifactId>
                  </exclusion>
                  <exclusion>

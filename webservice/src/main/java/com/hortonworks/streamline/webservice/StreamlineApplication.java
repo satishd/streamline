@@ -23,14 +23,14 @@ import com.hortonworks.streamline.common.Constants;
 import com.hortonworks.streamline.common.ModuleRegistration;
 import com.hortonworks.streamline.common.util.FileStorage;
 import com.hortonworks.streamline.common.util.ReflectionHelper;
-import com.hortonworks.streamline.storage.CacheBackedStorageManager;
-import com.hortonworks.streamline.storage.Storable;
-import com.hortonworks.streamline.storage.StorableKey;
-import com.hortonworks.streamline.storage.StorageManager;
-import com.hortonworks.streamline.storage.StorageManagerAware;
-import com.hortonworks.streamline.storage.cache.impl.GuavaCache;
-import com.hortonworks.streamline.storage.cache.writer.StorageWriteThrough;
-import com.hortonworks.streamline.storage.cache.writer.StorageWriter;
+import com.hortonworks.registries.storage.CacheBackedStorageManager;
+import com.hortonworks.registries.storage.Storable;
+import com.hortonworks.registries.storage.StorableKey;
+import com.hortonworks.registries.storage.StorageManager;
+import com.hortonworks.registries.storage.StorageManagerAware;
+import com.hortonworks.registries.storage.cache.impl.GuavaCache;
+import com.hortonworks.registries.storage.cache.writer.StorageWriteThrough;
+import com.hortonworks.registries.storage.cache.writer.StorageWriter;
 import com.hortonworks.streamline.streams.exception.ConfigException;
 import com.hortonworks.streamline.streams.service.GenericExceptionMapper;
 import io.dropwizard.Application;
@@ -53,7 +53,7 @@ import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.List;
 
-import static com.hortonworks.streamline.storage.util.StorageUtils.getStreamlineEntities;
+import static com.hortonworks.registries.storage.util.StorageUtils.getStreamlineEntities;
 
 public class StreamlineApplication extends Application<StreamlineConfiguration> {
     private static final Logger LOG = LoggerFactory.getLogger(StreamlineApplication.class);

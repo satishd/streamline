@@ -16,13 +16,13 @@
 
 package com.hortonworks.streamline.streams.catalog.service;
 
-import com.hortonworks.streamline.common.QueryParam;
+import com.hortonworks.registries.common.QueryParam;
 import com.hortonworks.streamline.common.util.FileStorage;
-import com.hortonworks.streamline.registries.tag.client.TagClient;
-import com.hortonworks.streamline.storage.Storable;
-import com.hortonworks.streamline.storage.StorableKey;
-import com.hortonworks.streamline.storage.StorageManager;
-import com.hortonworks.streamline.storage.util.StorageUtils;
+import com.hortonworks.registries.tag.client.TagClient;
+import com.hortonworks.registries.storage.Storable;
+import com.hortonworks.registries.storage.StorableKey;
+import com.hortonworks.registries.storage.StorageManager;
+import com.hortonworks.registries.storage.util.StorageUtils;
 import com.hortonworks.streamline.streams.catalog.File;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;

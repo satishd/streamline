@@ -16,12 +16,12 @@
 package com.hortonworks.streamline.streams.catalog.storage;
 
 import com.hortonworks.streamline.common.test.HBaseIntegrationTest;
-import com.hortonworks.streamline.storage.impl.jdbc.JdbcStorageManager;
-import com.hortonworks.streamline.storage.impl.jdbc.config.ExecutionConfig;
-import com.hortonworks.streamline.storage.impl.jdbc.phoenix.PhoenixStorageManagerNoCacheIntegrationTest;
-import com.hortonworks.streamline.storage.impl.jdbc.provider.phoenix.factory.PhoenixExecutor;
-import com.hortonworks.streamline.storage.impl.jdbc.provider.sql.factory.QueryExecutor;
-import com.hortonworks.streamline.storage.util.StorageUtils;
+import com.hortonworks.registries.storage.impl.jdbc.JdbcStorageManager;
+import com.hortonworks.registries.storage.impl.jdbc.config.ExecutionConfig;
+import com.hortonworks.registries.storage.impl.jdbc.phoenix.PhoenixStorageManagerNoCacheIntegrationTest;
+import com.hortonworks.registries.storage.impl.jdbc.provider.phoenix.factory.PhoenixExecutor;
+import com.hortonworks.registries.storage.impl.jdbc.provider.sql.factory.QueryExecutor;
+import com.hortonworks.registries.storage.util.StorageUtils;
 import com.hortonworks.streamline.streams.catalog.Topology;
 import com.hortonworks.streamline.streams.catalog.service.StreamCatalogService;
 import com.hortonworks.streamline.streams.catalog.topology.TopologyComponentBundle;

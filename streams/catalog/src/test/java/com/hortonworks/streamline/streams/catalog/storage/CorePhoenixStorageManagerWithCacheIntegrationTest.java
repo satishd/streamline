@@ -16,12 +16,12 @@
 package com.hortonworks.streamline.streams.catalog.storage;
 
 import com.hortonworks.streamline.common.test.HBaseIntegrationTest;
-import com.hortonworks.streamline.storage.StorableTest;
-import com.hortonworks.streamline.storage.exception.NonIncrementalColumnException;
-import com.hortonworks.streamline.storage.impl.jdbc.JdbcStorageManager;
-import com.hortonworks.streamline.storage.impl.jdbc.phoenix.PhoenixStorageManagerWithCacheIntegrationTest;
-import com.hortonworks.streamline.storage.impl.jdbc.provider.sql.factory.QueryExecutor;
-import com.hortonworks.streamline.storage.util.StorageUtils;
+import com.hortonworks.registries.storage.StorableTest;
+import com.hortonworks.registries.storage.exception.NonIncrementalColumnException;
+import com.hortonworks.registries.storage.impl.jdbc.JdbcStorageManager;
+import com.hortonworks.registries.storage.impl.jdbc.phoenix.PhoenixStorageManagerWithCacheIntegrationTest;
+import com.hortonworks.registries.storage.impl.jdbc.provider.sql.factory.QueryExecutor;
+import com.hortonworks.registries.storage.util.StorageUtils;
 import com.hortonworks.streamline.streams.catalog.service.CatalogService;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;

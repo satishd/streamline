@@ -16,7 +16,7 @@
 
 package com.hortonworks.streamline.streams.catalog.storage;
 
-import com.hortonworks.streamline.storage.impl.memory.InMemoryStorageManagerTest;
+import com.hortonworks.registries.storage.impl.memory.InMemoryStorageManagerTest;
 
 public class StreamsInMemoryStorageManagerTest extends InMemoryStorageManagerTest {
 

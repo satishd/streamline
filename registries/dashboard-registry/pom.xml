@@ -16,8 +16,9 @@
             <artifactId>common</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.hortonworks.streamline</groupId>
+            <groupId>com.hortonworks.registries</groupId>
             <artifactId>storage-core</artifactId>
+            <version>0.1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.core</groupId>
@@ -50,7 +51,7 @@
         <dependency>
             <groupId>com.hortonworks.registries</groupId>
             <artifactId>registry-common</artifactId>
-            <version>${schema-registry.version}</version>
+            <version>${registry.version}</version>
         </dependency>
 
         <!-- test dependency -->
